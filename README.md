@@ -11,13 +11,14 @@ This is a basic **Employee Management System** developed using **PHP**, **MySQL*
 -  Delete employee records
 -  Status control (On/Off) to restrict login
 -  Responsive UI with a reusable navigation bar
--  Centered login and add forms
+-  Centered login and add form
+-  alert and confirm boxes to show successful messages and confirm boxes for confirmation.
 -  Minimal and responsive layout
 -  Error handling and validation
 
 ## Technologies Used
 
-- **Frontend**: HTML5, CSS3 (custom and Bootstrap-inspired)
+- **Frontend**: HTML5, CSS3 (custom and Bootstrap-inspired),Basic JavaScript(prompt-alert booxes,confirm boxes).
 - **Backend**: PHP (MySQLi)
 - **Database**: MySQL
 - **Server**: XAMPP (Apache & MySQL)
