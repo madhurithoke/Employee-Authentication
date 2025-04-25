@@ -1,6 +1,6 @@
-# Employee Management System (PHP + MySQL)
+# Employee-Authentication And Management System (PHP + MySQL)
 
-This is a basic **Employee Management System** developed using **PHP**, **MySQL**, **HTML**, **CSS** and **Bootstrap**. It provides a simple web interface for managing employee data, including login authentication, employee registration, and update/delete functionalities.
+This is a basic **Employee-Authentication And Management System** developed using **PHP**, **MySQL**, **HTML**, **CSS** and **Bootstrap**. It provides a simple web interface for managing employee data, including login authentication, employee registration, and update/delete functionalities.
 
 ## Features
 
