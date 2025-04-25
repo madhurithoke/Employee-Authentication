@@ -41,7 +41,7 @@ This is a basic **Employee-Authentication And Management System** developed usin
 - PHP 7.4+ and MySQL
 - Web browser
 
-### 🔧 Setup Steps
+### Setup Steps
 
 1. **Place folder in XAMPP directory:**
    - Copy this entire `Employee-Authentication/` folder into:  
