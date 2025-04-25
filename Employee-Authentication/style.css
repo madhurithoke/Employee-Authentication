@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #009579;
+  min-height: 100vh;
+}
+
+/* Container to center form without disturbing navbar */
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px; /* ensures spacing from navbar */
+}
+
+/* FORM CARD */
+.form-wrapper {
+  background: #fff;
+  padding: 30px 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* FORM ELEMENTS */
+.form-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.form-box input,
+.form-box select {
+  height: 45px;
+  margin-bottom: 15px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  outline: none;
+}
+
+.form-box select {
+  background-color: #fff;
+}
+
+.form-box input:focus,
+.form-box select:focus {
+  border-color: #009579;
+  box-shadow: 0 0 3px #00957966;
+}
+
+.form-box a {
+  font-size: 14px;
+  color: #009579;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.form-box a:hover {
+  text-decoration: underline;
+}
+
+.submit-btn {
+  background-color: #009579;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.submit-btn:hover {
+  background-color: #00795d;
+}
+
+.signup-text {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.signup-text a {
+  color: #009579;
+  font-weight: 500;
+}
